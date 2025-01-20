@@ -139,8 +139,3 @@ let getTripple x = x*3
 getTripple num7
  -}
 -- end ghci commands
-
-main = do
-    putStrLn "What's your name?"
-    name <- getLine
-    putStrLn ("Hello " ++ name)
